@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: zerista_challenge_production
-  username: ENV['DATABASE_USERNAME']
-  password: <%= ENV['ZERISTA_CHALLENGE_DATABASE_PASSWORD'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: 
