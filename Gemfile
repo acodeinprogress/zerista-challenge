@@ -38,12 +38,11 @@ gem 'figaro'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  #testing
+  gem 'rspec-rails'
 end
 
 group :test do
-  #testing
-  gem 'rspec'
-
   #feature testing
   gem 'capybara-webkit'
 end
